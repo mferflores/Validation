@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+string name;
+cout<<"Username: ";
+cin>> name;
+if(name=="Fernanda"){
+string pass;
+cout<<"Password: ";
+cin>>pass;
+if(pass=="blackshoes"){
+cout<<"Welcome, Fernanda."<<endl;
+}
+else{
+cout<<"Sorry, wrong password. Try again."<<endl;
+}
+}
+else{
+cout<<"Sorry, wrong username. Try again."<<endl;
+}
+return 0;
+}
